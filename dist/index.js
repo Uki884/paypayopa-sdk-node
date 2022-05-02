@@ -1,0 +1,33 @@
+"use strict";
+const paypay_rest_sdk_1 = require("./lib/paypay-rest-sdk");
+module.exports = {
+    Configure: paypay_rest_sdk_1.payPayRestSDK.configure,
+    CreatePayment: paypay_rest_sdk_1.payPayRestSDK.createPayment,
+    QRCodeCreate: paypay_rest_sdk_1.payPayRestSDK.qrCodeCreate,
+    QRCodeDelete: paypay_rest_sdk_1.payPayRestSDK.qrCodeDelete,
+    GetCodePaymentDetails: paypay_rest_sdk_1.payPayRestSDK.getCodePaymentDetails,
+    GetPaymentDetails: paypay_rest_sdk_1.payPayRestSDK.getPaymentDetails,
+    PaymentCancel: paypay_rest_sdk_1.payPayRestSDK.paymentCancel,
+    PaymentAuthCapture: paypay_rest_sdk_1.payPayRestSDK.paymentAuthCapture,
+    PaymentAuthRevert: paypay_rest_sdk_1.payPayRestSDK.paymentAuthRevert,
+    PaymentRefund: paypay_rest_sdk_1.payPayRestSDK.paymentRefund,
+    PaymentPreauthorize: paypay_rest_sdk_1.payPayRestSDK.paymentPreauthorize,
+    GetRefundDetails: paypay_rest_sdk_1.payPayRestSDK.getRefundDetails,
+    CheckUserWalletBalance: paypay_rest_sdk_1.payPayRestSDK.checkUserWalletBalance,
+    Authorization: paypay_rest_sdk_1.payPayRestSDK.authorization,
+    AuthorizationResult: paypay_rest_sdk_1.payPayRestSDK.authorizationResult,
+    AccountLinkQRCodeCreate: paypay_rest_sdk_1.payPayRestSDK.accountLinkQRCodeCreate,
+    ValidateJWT: paypay_rest_sdk_1.payPayRestSDK.validateJWT,
+    CreateSubscriptionPayment: paypay_rest_sdk_1.payPayRestSDK.paymentSubscription,
+    CreatePendingPayment: paypay_rest_sdk_1.payPayRestSDK.createPendingPayment,
+    GetPendingPaymentDetails: paypay_rest_sdk_1.payPayRestSDK.getPendingPaymentDetails,
+    CancelPendingOrder: paypay_rest_sdk_1.payPayRestSDK.cancelPendingOrder,
+    RefundPendingPayment: paypay_rest_sdk_1.payPayRestSDK.refundPendingPayment,
+    GetUserAuthorizationStatus: paypay_rest_sdk_1.payPayRestSDK.getUserAuthorizationStatus,
+    UnlinkUser: paypay_rest_sdk_1.payPayRestSDK.unlinkUser,
+    CashBack: paypay_rest_sdk_1.payPayRestSDK.cashBack,
+    CheckCashBackDetails: paypay_rest_sdk_1.payPayRestSDK.getCashBackDetails,
+    ReversalCashBack: paypay_rest_sdk_1.payPayRestSDK.reverseCashBack,
+    CheckCashBackReversalDetails: paypay_rest_sdk_1.payPayRestSDK.getReverseCashBackDetails,
+    PayPayRestSDK: paypay_rest_sdk_1.PayPayRestSDK
+};
